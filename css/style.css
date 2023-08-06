@@ -1,5 +1,6 @@
 
 :root {
+    --color-8e8f99: #8e8f99;
     --color-31d0aa: #31d0aa;
     --color-4d5ae5: #4d5ae5;
     --color-2E2F42: #2E2F42;
@@ -177,7 +178,7 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url("/images/jpg/people-office1.jpg");
 
-    min-width: 1440px;
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;    
     background-size: cover;
@@ -231,6 +232,16 @@ img {
 .fourth-section-list {
     gap: 24px;
     display: flex;
+}
+
+.second-section-list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--color-f4f4fd);
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .background {
@@ -360,6 +371,9 @@ img {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--color-FFFFFF);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .social-container {
@@ -412,5 +426,31 @@ img {
 
 .social-svg {
     fill: var(--color-f4f4fd);
-    
+}
+
+.fifth-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.fifth-section-list-element {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.fifth-section-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--color-8e8f99);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-8e8f99);
+}
+
+.fifth-section-link:hover,
+.fifth-section-link:focus {
+    border-color: var(--color-404bbf);
+    color: var(--color-404bbf);
 }
