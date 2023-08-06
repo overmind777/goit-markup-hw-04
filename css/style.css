@@ -229,7 +229,8 @@ img {
 
 .second-section-list,
 .third-section-list,
-.fourth-section-list {
+.fourth-section-list,
+.fifth-section-list {
     gap: 24px;
     display: flex;
 }
@@ -267,16 +268,19 @@ img {
 
 .footer {
     background-color: var(--color-2E2F42);
-    padding: 100px 0;
+    padding: 100px 0;   
+}
+
+.footer-container {
     display: flex;
-    align-items: baseline;   
+    align-items: baseline;
 }
 
 .footer-left {  
     margin-right: 120px;
 }
 
-.footer-social {
+.footer-social-{
 
 }
 
@@ -396,6 +400,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-FFFFFF);
+    margin-bottom: 16px;
 }
 
 .footer-social-list {
@@ -453,4 +458,8 @@ img {
 .fifth-section-link:focus {
     border-color: var(--color-404bbf);
     color: var(--color-404bbf);
+}
+
+.fifth-section-svg {
+    fill: currentColor;
 }
