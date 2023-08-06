@@ -59,7 +59,6 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .list {
@@ -99,6 +98,9 @@ img {
     line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--color-2E2F42);
+
+    padding: 24px 0;
+    display: inline-block;
 }
 
 .header {
@@ -170,6 +172,8 @@ img {
 .first-section {
     background-color: var(--color-2E2F42);
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url("/images/jpg/people-office1.jpg");
 }
 
 .first-section.container {
@@ -272,6 +276,8 @@ img {
     border: 1px solid var(--color-e7e9fc);
     background-color: var(--color-f4f4fd);
 
+    color: var(--color-4d5ae5);
+    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -339,3 +345,16 @@ img {
     background-color: var(--color-FFFFFF);
 }
 
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-svg {
+    fill: #4d5ae5;
+
+    width: 40px;
+    height: 40px;
+}
