@@ -399,7 +399,7 @@ img {
 }
 
 .social-svg {
-    fill: var(--color-4d5ae5);
+    fill: var(--color-f4f4fd);
 }
 
 .footer-social-paragraph {
@@ -438,7 +438,7 @@ img {
 }
 
 .footer-social-svg {
-    fill: var(--color-4d5ae5);
+    fill: var(--color-f4f4fd);
 
     width: 40px;
     height: 40px;
@@ -477,5 +477,5 @@ img {
 }
 
 .fifth-section-svg {
-    fill: var(--color-f4f4fd);
+    fill: currentColor;
 }
