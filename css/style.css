@@ -399,10 +399,7 @@ img {
 }
 
 .social-svg {
-    fill: #4d5ae5;
-
-    width: 40px;
-    height: 40px;
+    fill: var(--color-4d5ae5);
 }
 
 .footer-social-paragraph {
@@ -435,13 +432,21 @@ img {
     justify-content: center;
 }
 
-.social-link:hover, 
+.social-link:hover,
 .social-link:focus {
-    background-color: var(--color-31d0aa);
+    background-color: var(--color-404bbf);
 }
 
-.social-svg {
-    fill: var(--color-f4f4fd);
+.footer-social-svg {
+    fill: var(--color-4d5ae5);
+
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-link:hover, 
+.footer-social-link:focus {
+    background-color: var(--color-31d0aa);
 }
 
 .fifth-section {
