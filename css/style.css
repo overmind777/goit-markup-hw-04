@@ -477,5 +477,5 @@ img {
 }
 
 .fifth-section-svg {
-    fill: currentColor;
+    fill: var(--color-f4f4fd);
 }
