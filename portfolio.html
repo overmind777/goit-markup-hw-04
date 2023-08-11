@@ -37,7 +37,9 @@
                             >
                         </li>
                         <li class="menu-element">
-                            <a class="list-link link" href="./portfolio.html"
+                            <a
+                                class="list-link hover-portfolio link"
+                                href="./portfolio.html"
                                 >Portfolio</a
                             >
                         </li>
@@ -100,14 +102,26 @@
                             </button>
                         </li>
                     </ul>
+                    <!-- Block products -->
                     <ul class="portfolio-list list">
                         <li class="portfolio-list-element">
                             <a class="portfolio-list-link link" href="">
-                                <img
-                                    src="./images/jpg/bank_app.jpg"
-                                    alt="Bank App"
-                                    width="360"
-                                />
+                                <div class="overlay">
+                                    <img
+                                        src="./images/jpg/bank_app.jpg"
+                                        alt="Bank App"
+                                        width="360"
+                                        class="overlay-img"
+                                    />
+                                    <div class="overlay-text">
+                                        <p class="overlay-paragraf paragraph">
+                                            14 Stylish and User-Friendly App
+                                            Design Concepts · Task Manager App ·
+                                            Calorie Tracker App · Exotic Fruit
+                                            Ecommerce App · Cloud Storage App
+                                        </p>
+                                    </div>
+                                </div>
                                 <div class="names-apps">
                                     <h2 class="portfolio-second-title">
                                         Banking App Interface Concept
@@ -245,9 +259,7 @@
             <div class="container footer-container">
                 <div class="footer-left">
                     <a class="footer-link link" href="./index.html"
-                        >Web<span class="logo-studio logo-footer"
-                            >Studio</span
-                        ></a
+                        >Web<span class="logo-footer">Studio</span></a
                     >
                     <p class="paragraph-footer">
                         Increase the flow of customers and sales for your
@@ -313,4 +325,5 @@
                 </div>
             </div>
         </footer>
+    </body>
 </html>

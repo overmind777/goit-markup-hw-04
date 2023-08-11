@@ -32,7 +32,9 @@
                     <!-- Menu navigation -->
                     <ul class="menu list">
                         <li class="menu-element">
-                            <a class="list-link link" href="./index.html"
+                            <a
+                                class="list-link hover-studio link"
+                                href="./index.html"
                                 >Studio</a
                             >
                         </li>
@@ -76,7 +78,11 @@
                     <h1 class="first-section-title">
                         Effective Solutions for Your Business
                     </h1>
-                    <button class="first-section-button" type="button">
+                    <button
+                        class="first-section-button"
+                        type="button"
+                        data-modal-open
+                    >
                         Order Service
                     </button>
                 </div>
@@ -197,7 +203,7 @@
                                 <p class="paragraph-center">Product Designer</p>
                                 <ul class="social-container list">
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -210,7 +216,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -223,7 +229,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -236,7 +242,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -264,7 +270,7 @@
                                 </p>
                                 <ul class="social-container list">
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -277,7 +283,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -290,7 +296,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -303,7 +309,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -331,7 +337,7 @@
                                 <p class="paragraph-center">Marketing</p>
                                 <ul class="social-container list">
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -344,7 +350,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -357,7 +363,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -370,7 +376,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -398,7 +404,7 @@
                                 <p class="paragraph-center">UI Designer</p>
                                 <ul class="social-container list">
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -411,7 +417,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -424,7 +430,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -437,7 +443,7 @@
                                         </a>
                                     </li>
                                     <li class="social-list">
-                                        <a href="" class="social-link">
+                                        <a href="" class="team-social-link">
                                             <svg
                                                 class="social-svg"
                                                 width="16"
@@ -541,15 +547,24 @@
                     </ul>
                 </div>
             </section>
+            <!-- Modal view -->
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <div class="close-btn" data-modal-close>
+                        <svg class="close-svg" width="24" height="24">
+                            <use href="./images/icons.svg#close"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="dark"></div>
+            </div>
         </main>
 
         <footer class="footer">
             <div class="container footer-container">
                 <div class="footer-left">
                     <a class="footer-link link" href="./index.html"
-                        >Web<span class="logo-studio logo-footer"
-                            >Studio</span
-                        ></a
+                        >Web<span class="logo-footer">Studio</span></a
                     >
                     <p class="paragraph-footer">
                         Increase the flow of customers and sales for your
